@@ -18,8 +18,36 @@
 
     </header>
     <main>
-        <h1>Welcome to My Page</h1>
-        <p>This is a simple HTML document.</p>
+        <h1>Need Your Computer fixed?</h1>
+        <p> We offer a wide range of computer repair services to get your device back in top shape. 
+            Whether you're dealing with hardware issues, software problems, or virus infections, 
+            our expert technicians are here to help.</p>
+        <h2>Just fill in this form and an agent will reply momentarily</h2>
+        
+        <form action="submit_service_request" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"><br><br>
+            
+            <label for="service">Service Required:</label><br>
+            <select id="service" name="service" required>
+                <option value="hardware_repair">Hardware Repair</option>
+                <option value="software_installation">Software Installation</option>
+                <option value="virus_removal">Virus Removal</option>
+                <option value="data_recovery">Data Recovery</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            
+            <label for="details">Additional Details:</label><br>
+            <textarea id="details" name="details" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        
     </main>
     <footer>
         <p>&copy; 2023 My Website</p>
