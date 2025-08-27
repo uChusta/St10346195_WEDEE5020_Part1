@@ -14,6 +14,7 @@
                 <li><a href="Contact.html">Contact</a></li>
                 <li><a href="Services.html">Services</a></li>
                 <li><a href="Products.html">Products</a></li>
+                <li><a href="Repairs.html">Repairs</a></li>
             </ul>
 
     </header>
@@ -22,29 +23,22 @@
         <p> If you need to get in touch with us for any inquiries, support, or feedback, please fill out the form below. 
             We look forward to hearing from you!</p>
 
-            <form action="submit_service_request" method="post">
+            <form action="Contact Us" method="post">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" required><br><br>
+
+            <label for="Surname">Surname:</label><br>
+            <input type="text" id="surname" name="surname" required><br><br>
             
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" required><br><br>
             
             <label for="phone">Phone Number:</label><br>
             <input type="tel" id="phone" name="phone"><br><br>
-            
-            <label for="service">Service Required:</label><br>
-            <select id="service" name="service" required>
-                <option value="">--Please choose an option--</option>
-                <option value="hardware_repair">Hardware Repair</option>
-                <option value="software_repair">Software Repair</option>
-                <option value="network_setup">Network Setup</option>
-                <option value="software_installation">Software Installation</option>
-                <option value="virus_removal">Virus Removal</option>
-                <option value="data_recovery">Data Recovery</option>
-                <option value="other">Other</option>
-            </select><br><br>
-            
-            <label for="details">Additional Details:</label><br>
+            <label for="subject">Subject:</label><br>
+            <input type="text" id="subject" name="subject" required><br><br>
+
+            <label for="details">Message:</label><br>
             <textarea id="details" name="details" rows="4" cols="50"></textarea><br><br>
             
             <input type="submit" value="Submit">
