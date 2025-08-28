@@ -1,4 +1,4 @@
-I was tasked with creating a website for a company. the company wanted to boost sales and reach a wider audience by Increasing the Organisations online Presence.
+I was tasked with creating a website for a company using HTML only, this is to provide structure for the website. the company wanted to boost sales and reach a wider audience by Increasing the Organisations online Presence.
 
 References:
 
